@@ -1,0 +1,41 @@
+{
+  "name": "dspace-daemon-portal",
+  "version": "0.3.0",
+  "description": "Prototype of server using Bayeux protocol for pub/sub",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --watch"
+  },
+  "keywords": [
+    "dspace",
+    "bayeux",
+    "pubsub"
+  ],
+  "repository": "",
+  "author": {
+    "name": "☮ elf Pavlik ☮",
+    "email": "perpetual-tripper@wwelves.org"
+  },
+  "license": "Unlicense",
+  "dependencies": {
+    "nconf": "~0.6.7",
+    "express": "~3.4.0",
+    "cors": "~1.0.1",
+    "faye": "1.0.0",
+    "level": "~0.17.0-1",
+    "lodash": "~2.2.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-markdown": "~0.4.0",
+    "grunt-develop": "~0.2.2",
+    "grunt-notify": "~0.2.13",
+    "mocha": "~1.13.0",
+    "chai": "~1.8.1",
+    "sinon": "~1.7.3",
+    "sinon-chai": "~2.4.0"
+  }
+}

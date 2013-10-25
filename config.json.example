@@ -1,0 +1,9 @@
+{
+  "bayeux": {
+    "port": 5005
+  },
+  "db": {
+    "location": "./dev.lup"
+  },
+  "debug": false
+}
