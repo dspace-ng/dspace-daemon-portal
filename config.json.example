@@ -1,9 +1,0 @@
-{
-  "bayeux": {
-    "port": 5005
-  },
-  "db": {
-    "location": "./dev.ldb"
-  },
-  "debug": false
-}
