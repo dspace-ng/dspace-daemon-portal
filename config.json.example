@@ -3,7 +3,7 @@
     "port": 5005
   },
   "db": {
-    "location": "./dev.lup"
+    "location": "./dev.ldb"
   },
   "debug": false
 }
